@@ -1,4 +1,23 @@
 # umba_assessment
-This repository consists of files related to Umba assessment!
-The assessment has questions on sql joins, aggregations and data analysis based on a dataset provided.
-This repository consists of one .sql file, one word file with sql commands along with comments, dataset .csv file and finally a jupyter notebook file with data analysis work! 
+## This repository consists of files related to Umba assessment!
+
+The assessment has questions on sql joins (1 question), aggregations (5 questions) and data analysis based on a dataset provided.
+
+This repository consists of: 
+<ol>
+  <li>aggregation-1 txt file
+  <li>aggregation-2 txt file
+  <li>aggregation-3 txt file
+  <li>aggregation-4 txt file
+  <li>aggregation-5 txt file
+  <li>joins txt file
+  <li>.sql file - contains all queries in a single file
+  <li>one word file with sql commands along with comments
+  <li>dataset .csv file and
+  <li>finally, a jupyter notebook file with data analysis work! 
+</ol>
+  
+    
+
+
+ 
