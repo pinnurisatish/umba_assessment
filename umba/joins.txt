@@ -1,0 +1,7 @@
+-- Joins query - use joins to retrieve the required result!
+
+select loans.id as loan_id, loans.amount as loan_amount, users.id as user_id, users.created as user_created, transaction_fee, t_type from transactions -- selected the required columns from three different tables and used 'alias' for column names in required format  
+join loans on transactions.loan_id = loans.id -- join transactions and loans table using 'loan_id' column
+join users on loans.user_id = users.id -- join loans and users table using 'user_id' column
+where t_type = 'disbursement' -- filter the data based on transaction_type = 'disbursement'
+order by users.created desc; -- display results from new to old which means, the newly created user comes on top!

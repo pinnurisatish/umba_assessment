@@ -1,0 +1,7 @@
+-- aggregation question-1: number of loans per month
+-- used aggregate function 'COUNT' on 'id' column, then extracted(extract() method) month and year from the 'created' date column. 
+-- used 'group by' to group the results by month and the year. Finally sorted the results based on recency (latest created comes on top)!
+
+SELECT count(id), extract(month FROM created) as month, extract(year FROM created) as year from loans 
+group by month, year 
+order by year desc, month desc;

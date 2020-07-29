@@ -1,0 +1,7 @@
+-- aggregation question-3: average amount of each loan per month
+-- used aggregate function 'AVG' on 'amount' column and rounded(round()) it to 2 decimals, then extracted(extract() method) month and year from the 'created' date column. 
+-- used 'group by' to group the results by month and the year. Finally sorted the results based on recency (latest created comes on top)!
+
+select round(avg(amount),2) as avg_amount, extract(month FROM created) as month, extract(year FROM created) as year from loans 
+group by month, year 
+order by year desc, month desc;

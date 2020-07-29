@@ -1,0 +1,7 @@
+-- aggregation question-5: largest loan size per month
+-- used aggregate function 'MAX' on 'amount' column, then extracted(extract() method) month and year from the 'created' date column. 
+-- used 'group by' to group the results by month and the year. Finally sorted the results based on recency (latest created comes on top)!
+
+select max(amount) as max_amount, extract(month FROM created) as month,extract(year FROM created) as year from loans 
+group by month, year 
+order by year desc, month desc;
