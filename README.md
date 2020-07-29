@@ -11,10 +11,10 @@ This repository consists of:
   <li>aggregation-4 txt file
   <li>aggregation-5 txt file
   <li>joins txt file
-  <li>.sql file - contains all queries in a single file
-  <li>one word file with sql commands along with comments
-  <li>dataset .csv file and
-  <li>finally, a jupyter notebook file with data analysis work! 
+  <li>SQL (.sql) file - contains all queries in a single file
+  <li>one word document with sql commands along with comments
+  <li>dataset (.csv) file and
+  <li>finally, a jupyter notebook (.ipnyp) file with data analysis work! 
 </ol>
   
     
